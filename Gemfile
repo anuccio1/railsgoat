@@ -6,7 +6,7 @@ gem "rails", "5.1.6"
 
 ruby "2.5.3"
 
-gem "aruba"
+gem "aruba", ">= 0.14.6"
 gem "bcrypt"
 gem "coffee-rails"
 gem "execjs"
