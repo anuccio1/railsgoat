@@ -11,7 +11,7 @@ gem "bcrypt"
 gem "coffee-rails"
 gem "execjs"
 gem "foreman"
-gem "jquery-fileupload-rails"
+gem "jquery-fileupload-rails", ">= 1.0.0"
 gem "jquery-rails"
 gem "minitest"
 gem "powder" # Pow related gem
@@ -19,7 +19,7 @@ gem "pry-rails" # not in dev group in case running via prod/staging @ a training
 gem "puma"
 gem "rails-perftest"
 gem "rake"
-gem "responders" #For Rails 4.2 # LOCKED DOWN
+gem "responders" , ">= 3.0.0" #For Rails 4.2 # LOCKED DOWN
 gem "ruby-prof"
 gem "sass-rails"
 gem "simplecov", require: false, group: :test
@@ -54,7 +54,7 @@ group :development, :test, :mysql do
   gem "database_cleaner"
   gem "launchy"
   gem "poltergeist"
-  gem "rspec-rails"
+  gem "rspec-rails", ">= 3.8.2"
   gem "test-unit"
 end
 
